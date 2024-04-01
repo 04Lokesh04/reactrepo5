@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.home-container {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  width: 45%;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.home-description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  height: 45px;
+  width: 95px;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.home-desktop-img{
+  height: 350px;
+  width: 45%;
+  margin: 10px;
+}
