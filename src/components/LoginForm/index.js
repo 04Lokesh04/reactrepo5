@@ -13,7 +13,10 @@ class LoginForm extends Component {
 
   onSubmitFailure = errorMsg => {
     this.setState({showerrormsg: true, errormsg: errorMsg})
+<<<<<<< HEAD
     console.log(errorMsg)
+=======
+>>>>>>> origin/main
   }
 
   onChangeUsername = event => {
@@ -41,7 +44,11 @@ class LoginForm extends Component {
     const url = 'https://apis.ccbp.in/login'
     const options = {
       method: 'POST',
+<<<<<<< HEAD
       body: JSON.stringify(userDetails),
+=======
+      body: JSON.stringfy(userDetails),
+>>>>>>> origin/main
     }
 
     const response = await fetch(url, options)
@@ -63,7 +70,11 @@ class LoginForm extends Component {
         </label>
         <input
           type="password"
+<<<<<<< HEAD
           placeholder="Password"
+=======
+          placeholder='Password'
+>>>>>>> origin/main
           id="password"
           className="password-input-filed"
           value={password}
@@ -82,7 +93,11 @@ class LoginForm extends Component {
         </label>
         <input
           type="text"
+<<<<<<< HEAD
           placeholder="Username"
+=======
+          placeholder='Username'
+>>>>>>> origin/main
           id="username"
           className="username-input-filed"
           value={username}

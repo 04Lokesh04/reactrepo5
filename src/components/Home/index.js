@@ -22,7 +22,11 @@ const Home = () => (
       </div>
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"
+<<<<<<< HEAD
         alt="clothes that get you noticed"
+=======
+        alt="dresses to be noticed"
+>>>>>>> origin/main
         className="home-desktop-img"
       />
     </div>
