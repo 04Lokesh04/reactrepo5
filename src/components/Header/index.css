@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.nav-header {
+  background-color: #ffffff;
+  height: 20vh;
+  padding: 25px;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link {
+  list-style-type: none;
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+
+.website-logo {
+  height: 40px;
+  width: 100px;
+}
+
+.logout-desktop-btn {
+  height: 35px;
+  width: 85px;
+  font-size: 10px;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+}
